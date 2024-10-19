@@ -1,0 +1,24 @@
+Tony Leff
+a day ago
+  · 
+Peter Forth has asked me to explain what I have done, to get Forth running 
+on my Milk V Duo 256....
+So, step 1, create an image of the official Linux for the Milk V Duo, as explained 
+on the Milk V website.
+Step 2, insert sd into the Milk V, and insert the Milk V, into the expansion board, 
+then hook up to a terminal using serial port.
+Step 3, connect an ethernet cable to the expansion board, and your router.  
+ Ping the router @ 192.168.42.1 to ensure connectivity.
+Also, plugged in a wifi dongle, into one of the usb ports, 
+then edited WPA_Supllicant file in /etc directory, to include my SSID & Password. 
+ Then Reboot.
+Step 4, on my laptop (connected to the Milk V via serial port), 
+visited  https://sourceforge.net/projects/mecrisp/files/ 
+and copied this link, then switched to my terminal connected to the Milk V,
+ 
+and typed in wget https://sourceforge.net/.../mecrisp-quintus-1.1.0.tar.gz
+this downloaded Mecrisp Quintus into the Milk V, in the current directory.  
+ I then gunzip'd the file, then tar'd the file...
+finally, I had a look through the directory structure and found that
+ the files in the linux-rv64 will execute with 
+ ./mecrisp-quintus-linux-rv64imc
