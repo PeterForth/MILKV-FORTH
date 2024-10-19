@@ -4,6 +4,7 @@ A repo for the different flavours & best known Forths
 
 ported to the MILKV-DUO and its derivatives.
 
+![Alt text](forth-milk.png)
 
 # There is FORTH IN YOUR MILK : 
 
