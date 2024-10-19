@@ -1,4 +1,4 @@
-# ****  MILKV-FORTH  **** 
+# ****  MECRISP-MILKV-FORTH  **** 
 
 Download this IMG file and burn your SD-card from my Dropbox :
 
