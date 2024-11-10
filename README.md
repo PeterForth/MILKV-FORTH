@@ -11,7 +11,7 @@ ported to the MILKV-DUO and its derivatives.
 1 step installation ! 
 
 Now you can download an IMG file and burn your SD-card and start
-using your MILKV-DUO  with FORTH no more complex steps to install
+using your "MILKV-DUO 64MB classic" with FORTH no more complex steps to install
 nothing ! .I created this IMG file you
 can get from my Dropbox :
 
