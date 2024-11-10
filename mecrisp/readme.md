@@ -25,8 +25,7 @@ Further  recommendations :
 How to startup and move your IMAGE to the SD card 
 https://milkv.io/docs/duo/getting-started/boot
 
-Use only the TTL serial to work with MECRISP !! it will not work from 
-USB or ethernet.
+In case of usb-ethernet communication errors, use the TTL serial to work with MECRISP. it will just workfine.
 
 follow this link how to connect an FTDI adapter to your MilkV 
 https://milkv.io/docs/duo/getting-started/duo
